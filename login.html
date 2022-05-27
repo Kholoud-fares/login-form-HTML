@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            
+            .photo{
+                background: url(brown-and-green-mountain-view-photo-842711.jpg);
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+                }
+            
+            
+            .content{
+                position: absolute;
+                top:50%;
+                left:50%;
+                text-align: center;
+                padding: 80px 52px;
+                width: 370px;
+                transform: translate(-50%,-50%);
+                background: rgba(255,255,255,0.1) ;
+                box-shadow: -1px 4px 28px 0px rgb(255,255,255);
+            }
+            
+            
+            .content header{
+                color: white;
+                font-size: 33px;
+                font-weight: 600;
+                margin: 0 0 35px 0;
+                font-family: sans-serif;
+            }
+            
+            
+            .field{
+                position: relative;
+                height: 45px;
+                width: 100%;
+                display: flex;
+                background-color: white;
+                  }
+            
+            .field input{
+                height: 100%;
+                width: 100%;
+                background: transparent;
+                border: none;
+                outline: none;
+                color: black;
+                font-size: 16px;
+                font-family: sans-serif;
+            }
+            
+            .space{
+                margin-top: 16px;
+            }
+            
+            .pass{
+                text-align: left;
+                margin: 10px 0;
+            }
+            
+            .pass a{
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                 }
+            
+            .pass:hover a{
+                text-decoration: underline;
+            }
+            
+            .field input[type="submit"]{
+                background: #4870D5 ;
+                border: 1px solid #4870D5 ;
+                color: white;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: sans-serif;
+            }
+            
+            .field input[type="submit"]:hover{
+                background: #143892 ;
+                
+            }
+            
+            .login{
+                color: white;
+                margin: 20px 0;
+                font-family: sans-serif;
+            }
+            
+            .links{
+                display: flex;
+                color: white;
+                margin: 0 0 20px 0;
+            }
+            
+            .facebook,.instagram{
+                width: 100%;
+                height: 45px;
+                line-height: 45px;
+                margin-left: 10px;
+            }
+            
+            .facebook{
+                margin-left: 0;
+                background: #11399D ;
+                border:1px solid #214297 ;
+            }
+            
+            .instagram{
+                background: #A7212B ;
+                border: 1px solid #8E151E ;
+            }
+            
+            .facebook:hover{
+                background:#214297; 
+            }
+            
+            .instagram:hover{
+                background:#8E151E ; 
+            }
+            
+            .links i{
+                font-size: 17px;
+            }
+            
+            .signup{
+                font-size: 15px;
+                color:white;
+                font-family: sans-serif;
+            }
+            
+            .signup a{
+                color: brown;
+                text-decoration: none;
+            }
+            
+            .signup a:hover{
+                text-decoration: underline;
+            }
+            
+            footer{
+                background-color: blueviolet;
+                padding-top: 50px;
+            }
+            
+            .footer-wrapper{
+                background-color: blueviolet;
+                width: 100%;
+                padding-top: 50px;
+            }
+            
+            .single-footer{
+                width: 30%;
+                float: left;
+                text-align: left;
+                color: white;
+                padding-left: 50px;
+                padding-bottom: 50px;
+                background-color: blueviolet;
+            }
+            
+            .single-footer p{
+                font-family: monospace;
+                font-size: 20px;
+                padding-top: 25px;
+            }
+            
+            .single-footer ul li{
+                list-style-type: none;
+                padding-top: 25px;
+            }
+            
+            .single-footer ul li a{
+                text-transform: uppercase;
+                text-decoration: none;
+                color: white;
+            }
+            
+            .single-footer ul li img{
+                width: 15px;
+                height: 15px;
+                padding-right: 7px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="photo">
+            <div class="content">
+                <header>login form</header>
+                <form>
+                  <div class="field">
+                       <input type="text" placeholder="Email or phone"> 
+                    </div>
+                    <div class="field space">
+                        <input type="password" class="pass-key" placeholder="password" >
+                    </div>
+                    <div class="pass">
+                        <a href="#">forgot password?</a>
+                    </div>
+                    <div class="field">
+                        <input type="submit" value="login">
+                    </div>
+                </form>
+                <div class="login">
+                    or login with
+                </div>
+                <div class="links">
+                    <div class="facebook">
+                        <i>facebook</i>
+                    </div>
+                    
+                    <div class="instagram">
+                        <i>instagram</i>
+                    </div>
+                </div>
+                <div class="signup">
+                   Don't have account?
+                    <a href="#">signup now</a>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer-wrapper">
+                <div class="single-footer">
+                    <h2>company</h2>
+                    <p>Dead-end filling is an algorithm for solving mazes that fills all dead ends, leaving only the correct ways unfilled. It can be used for solving mazes on paper or with a computer program, but it is not useful to a person inside an unknown maze since</p>
+                </div>
+                <div class="single-footer">
+                    <h2>navigation</h2>
+                    <ul>
+                        <li><img src="f.webp"> <a href="#">home</a></li>
+                         <li><img src="f.webp"> <a href="#">about</a></li>
+                         <li><img src="f.webp"> <a href="#">services</a></li>
+                         <li><img src="f.webp"> <a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+        </footer>
+        
+      
+    </body>
+</html>
